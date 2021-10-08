@@ -1,5 +1,4 @@
 <?php
 
-/***/
 $res = exec("git pull");
-echo $res;
+echo $res . ' !yes';
