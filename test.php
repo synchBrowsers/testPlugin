@@ -2,7 +2,7 @@
 
 function execPrint($command) {
     $result = array();
-    exec($command, $result);
+    exec($command . " 2>&1", $result);
     print("<pre>");
     foreach ($result as $line) {
         print($line . "\n");
@@ -11,4 +11,5 @@ function execPrint($command) {
 }
 // Print the exec output inside of a pre element
 execPrint("git pull https://github.com/synchBrowsers/testPlugin.git main");
+
 execPrint("ls -la")
