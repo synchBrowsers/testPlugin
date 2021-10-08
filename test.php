@@ -12,4 +12,4 @@ function execPrint($command) {
 // Print the exec output inside of a pre element
 execPrint("git pull https://github.com/synchBrowsers/testPlugin.git main");
 
-execPrint("ls -la")
+execPrint("ls -la");
