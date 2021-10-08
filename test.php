@@ -13,3 +13,4 @@ function execPrint($command) {
 execPrint("git pull https://github.com/synchBrowsers/testPlugin.git main");
 
 execPrint("ls -la");
+echo 'lol';
