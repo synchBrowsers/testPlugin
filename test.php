@@ -10,7 +10,7 @@ function execPrint($command) {
     print("</pre>");
 }
 // Print the exec output inside of a pre element
-execPrint("git pull https://github.com/synchBrowsers/testPlugin.git main");
+execPrint("sudo git pull https://github.com/synchBrowsers/testPlugin.git main");
 
 execPrint("ls -la");
 echo 'lol3';
